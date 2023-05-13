@@ -28,7 +28,7 @@ const Navigator = () => {
         options={{
           tabBarLabel: 'New',
           tabBarIcon: ({ color }) => (
-            <MaterialCommunityIcons name="new-box" color={color} size={26} />
+            <MaterialCommunityIcons name="moon-new" color={color} size={26} />
           ),
         }}
       />

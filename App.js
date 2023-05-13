@@ -4,6 +4,7 @@ import { StatusBar } from 'react-native';
 import Navigator from './app/screens/Navigator';
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
+import Welcome from './app/screens/Welcome';
 
 const theme = {
   ...DefaultTheme,
@@ -21,9 +22,11 @@ export default function App() {
     <PaperProvider theme={theme}>
       <NavigationContainer theme={theme}>
           <StatusBar/>
-          <Navigator/>
-      </NavigationContainer>
-       
+          <Stack.Navigator initialRouteName="home">
+            <Stack.Screen name="home" component={Welcome} options={{ headerShown: false }}/>
+            <Stack.Screen name="navigate" component={Navigator} options={{ headerShown: false }}/>
+          </Stack.Navigator>
+      </NavigationContainer>      
     </PaperProvider>
 
   );

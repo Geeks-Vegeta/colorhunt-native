@@ -1,5 +1,7 @@
 # colorhunt-native
 
+![ezgif com-video-to-gif(1)](https://github.com/Geeks-Vegeta/colorhunt-native/assets/89457811/fd3de512-bff7-48c0-89a0-dabaa2aaccdf)
+
 This is an Project is built on top of <a href="https://github.com/Geeks-Vegeta/colorhunt2-frontend">ColorPicker</a> which is an mern based web application built for desktop/tab users. Where as this project is usually focuse on mobile level both for andorid and ios.
 
 Feel Free to use this application.
